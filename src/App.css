@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.calc{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* .calBody{
+  display: flex;
+}
+.calcOp{
+  display: flex;
+  flex-direction: column;
+} */
+
+.number{
+  font-size: 30px;
+  margin: 1px;
+}
+.display{
+  /* background-color: grey; */
+  border: 1px solid #888;
+  font-size: 30px;
+  min-height: 100px;
+  height: min-content;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1px;
+}
+
+
+.span_two{
+  grid-column-end: span 2;
+}
+
+.root2{
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 5px white;
+}
